@@ -28,7 +28,7 @@ RUN poetry install --no-root --no-interaction --no-ansi
 COPY . .
 
 ## Final install of the project itself
-RUN poetry install --no-interaction --no-ansi
+# RUN poetry install --no-interaction --no-ansi
 
 # Streamlit uses PORT 8501 by default
 EXPOSE 8501
